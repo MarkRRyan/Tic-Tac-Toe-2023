@@ -1,3 +1,5 @@
+console.log('Hey stop looking at my console!')
+
 const gameboard = document.getElementById('gameboard')
 const boxes = Array.from(document.getElementsByClassName('box'))
 const restartBTN = document.getElementById('restartBTN')
