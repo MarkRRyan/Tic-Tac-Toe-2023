@@ -8,7 +8,6 @@ const spaces = []
 const playerOne = 'X'
 const playerTwo = 'O'
 let currentPlayer = playerOne
-console.log(spaces)
 
 const boxClicked = (event) => {
     const id = event.target.id;
