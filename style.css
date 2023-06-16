@@ -1,17 +1,18 @@
 body {
     background-color: rgb(88, 246, 194);
+    display: flex;
+    justify-content: center;
     margin: 0;
     padding: 0;
 }
 
 h1 {
-    margin: 5px;
+    text-align: center;
 }
 
 .gameboard {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     height: 450px;
     width: 450px;
     margin: 10px;
@@ -20,6 +21,10 @@ h1 {
 .box {
     height: 150px;
     width: 145px;
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box:hover {
@@ -37,4 +42,14 @@ h1 {
 
 [id='6'], [id='7'] {
     border-right: 1px solid black;
+}
+
+.button-div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#restartBTN {
+    margin: 50px;
 }
