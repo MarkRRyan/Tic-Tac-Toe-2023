@@ -20,9 +20,44 @@ h1 {
 .box {
     height: 150px;
     width: 145px;
-    border: 1px solid black;
 }
 
 .box:hover {
     background-color: rgb(66, 233, 177);
+}
+
+#zero {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#one {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#two {
+    border-bottom: 1px solid black;
+}
+
+#three {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#four {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#five {
+    border-bottom: 1px solid black;
+}
+
+#six {
+    border-right: 1px solid black;
+}
+
+#seven {
+    border-right: 1px solid black;
 }
