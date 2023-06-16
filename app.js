@@ -4,10 +4,11 @@ const gameboard = document.getElementById('gameboard')
 const boxes = Array.from(document.getElementsByClassName('box'))
 const restartBTN = document.getElementById('restartBTN')
 const playerText = document.getElementById('playText')
-const spaces = [null, null, null, null, null, null, null, null, null]
+const spaces = []
 const playerOne = 'X'
 const playerTwo = 'O'
 let currentPlayer = playerOne
+console.log(spaces)
 
 const boxClicked = (event) => {
     const id = event.target.id;
@@ -25,6 +26,7 @@ const boxClicked = (event) => {
 const gameSquares = () => {
     boxes.forEach((box) => {
       box.addEventListener("click", boxClicked);
+      console.log(box)
     });
   };
 
@@ -32,6 +34,7 @@ const hasPlayerWon = (player) => {
     if (spaces[0] === player) {
       if (spaces[1] === player && spaces[2] === player) {
         return true;
+        
       }
       if (spaces[3] === player && spaces[6] === player) {
         return true;

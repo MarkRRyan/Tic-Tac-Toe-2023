@@ -26,38 +26,38 @@ h1 {
     background-color: rgb(66, 233, 177);
 }
 
-#zero {
+[id='0'] {
     border-bottom: 1px solid black;
     border-right: 1px solid black;
 }
 
-#one {
+[id='1']{
     border-bottom: 1px solid black;
     border-right: 1px solid black;
 }
 
-#two {
+[id='2'] {
     border-bottom: 1px solid black;
 }
 
-#three {
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-}
-
-#four {
+[id='3'] {
     border-bottom: 1px solid black;
     border-right: 1px solid black;
 }
 
-#five {
+[id='4'] {
     border-bottom: 1px solid black;
-}
-
-#six {
     border-right: 1px solid black;
 }
 
-#seven {
+[id='5'] {
+    border-bottom: 1px solid black;
+}
+
+[id='6'] {
+    border-right: 1px solid black;
+}
+
+[id='7'] {
     border-right: 1px solid black;
 }
