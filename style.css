@@ -26,38 +26,15 @@ h1 {
     background-color: rgb(66, 233, 177);
 }
 
-[id='0'] {
+[id='0'], [id='1'], [id='3'], [id='4'] {
     border-bottom: 1px solid black;
     border-right: 1px solid black;
 }
 
-[id='1']{
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-}
-
-[id='2'] {
+[id='2'], [id='5'] {
     border-bottom: 1px solid black;
 }
 
-[id='3'] {
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-}
-
-[id='4'] {
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-}
-
-[id='5'] {
-    border-bottom: 1px solid black;
-}
-
-[id='6'] {
-    border-right: 1px solid black;
-}
-
-[id='7'] {
+[id='6'], [id='7'] {
     border-right: 1px solid black;
 }
