@@ -26,7 +26,6 @@ const boxClicked = (event) => {
 const gameSquares = () => {
     boxes.forEach((box) => {
       box.addEventListener("click", boxClicked);
-      console.log(box)
     });
   };
 
