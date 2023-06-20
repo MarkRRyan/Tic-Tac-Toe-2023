@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:ital,wght@1,100&display=swap');
+
 body {
-    background-color: rgb(88, 246, 194);
+    background-color: rgb(109, 199, 194);
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -28,7 +31,7 @@ h1 {
 }
 
 .box:hover {
-    background-color: rgb(66, 233, 177);
+    background-color: rgb(37, 166, 160);
 }
 
 [id='0'], [id='1'], [id='3'], [id='4'] {
@@ -51,5 +54,15 @@ h1 {
 }
 
 #restartBTN {
+    padding: 10px 20px;
+    background-color: rgb(37, 166, 160);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
     margin: 50px;
+}
+
+#restartBTN:hover {
+    background-color: rgb(109, 199, 194);
 }
