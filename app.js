@@ -15,7 +15,7 @@ const boxClicked = (event) => {
         spaces[id] = currentPlayer;
         event.target.innerText = currentPlayer;
         if (hasPlayerWon(currentPlayer)) {
-            playerText.innerHTML = `${currentPlayer} is the BEST!!`
+            playerText.innerHTML = `${currentPlayer} is the WINNER!!`
             return;
         }
         currentPlayer = currentPlayer === playerOne ? playerTwo : playerOne;
